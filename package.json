@@ -1,0 +1,23 @@
+{
+  "name": "hexo-generator-readme-file",
+  "version": "1.0.1",
+  "description": "generate a readme-file.md file contains all of blogs posts link.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tcatche/hexo-generator-readme-file.git"
+  },
+  "keywords": [
+    "hexo",
+    "hexo plugin",
+    "hexo generator",
+    "generator",
+    "readme-file"
+  ],
+  "author": "tcatche",
+  "bugs": {
+    "url": "https://github.com/tcatche/hexo-generator-readme-file/issues"
+  },
+  "homepage": "https://github.com/tcatche/hexo-generator-readme-file",
+  "license": "MIT"
+}
