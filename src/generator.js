@@ -36,10 +36,10 @@ function formatData (posts) {
   }
   Object.keys(data).forEach(label => {
     if (config.groupType !== 'none') {
-      result.push(`### **${label}**`)
+      result.push(`### **${label}** (${data[label].length})`)
     }
     data[label].forEach(item => {
-      result.push(`[${item.date}] [${item.title}](${item.permalink})`)
+      result.push(`- ${item.date} [${item.title}](${item.permalink})`)
     })
     result.push(`  \n`)
   })
